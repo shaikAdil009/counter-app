@@ -1,0 +1,61 @@
+  .all{
+    text-align: center;
+    margin-top: 30vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#male-btn,#counter-value,#female-btn{
+    width: 100px;
+    padding: 5px;
+    background-color: darkslategray;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: bold;
+}
+#counter-value{
+     background-color: lightpink;
+     color: black;
+}
+#decrement-btn,#reset-btn{
+    width: 100px;
+    margin-top: 4vh;
+    padding: 5px;
+    background-color: darkslategray ;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+#male-count{
+    color: red;
+    font-size: 20px;
+}
+#female-count{
+    color: dimgray;
+    font-size: 20px;
+}
+#total-present{
+    color: dodgerblue;
+}
+.attendence{
+    margin-top: 10vh;
+    font-size: 20px;
+    font-weight: bold;
+}
+#dark-them{
+    margin-top: 4vh;
+    padding: 4px;
+    background-color: darkkhaki;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    width: 80px;
+    border: none;
+}
+#dark-them:hover{
+    background-color: lightsalmon;
+}
